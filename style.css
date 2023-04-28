@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* elementi riguardanti l'HEADER e il FOOTER */
+header {
+  background-color: orange;
+  height: 80px;
+}
 .wrapper {
   display: flex;
   flex-direction: row;
@@ -15,20 +20,19 @@ footer {
   height: 80px;
   color: white;
 }
-header {
-    background-color: orange;
-    height: 80px;
-}
-.links , .icons {
+
+.links,
+.icons {
   color: white;
 }
 .logo {
   height: 40px;
   width: 131px;
 }
-img{
-    display: block;
-    max-width: 100%;
+/* ---------------------------------*/
+img {
+  display: block;
+  max-width: 100%;
 }
 
 .container {
@@ -47,30 +51,32 @@ img{
 
   min-height: 50px;
 }
-.discount{
-    color: rgb(248, 244, 244);
-    padding: 10px 15px;
-    background-color: red;
-    position: absolute;
-    left: 0;
-    top: 0;
+/* elementi mobili dentro le cards */
+.discount {
+  color: rgb(248, 244, 244);
+  padding: 10px 15px;
+  background-color: red;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
-.sostenibilità{
-    color: rgb(248, 244, 244);
-    padding: 10px 15px;
-    background-color: rgb(32, 217, 54);
-    position: absolute;
-    left: 40;
-    bottom: 20;
+.sostenibilità {
+  color: rgb(248, 244, 244);
+  padding: 10px 15px;
+  background-color: rgb(32, 217, 54);
+  position: absolute;
+  left: 40;
+  bottom: 20;
 }
-.heart{
-    background-color: white;
-    color: black;
-    padding: 10px 15px;
-    position: absolute;
-    top: 5px;
-    right: 0px;
+.heart {
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  position: absolute;
+  top: 5px;
+  right: 0px;
 }
-.card{
-    position: relative;
+/* ---------------------------------*/
+.card {
+  position: relative;
 }
