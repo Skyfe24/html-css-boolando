@@ -110,3 +110,7 @@ img {
 #sixth:hover {
   content: url(./img/6b.webp);
 }
+
+.red{
+  color: red;
+}
