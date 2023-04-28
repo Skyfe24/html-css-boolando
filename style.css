@@ -68,7 +68,7 @@ img {
   left: 70px;
   bottom: 80px;
 }
-.sostenibilità2{
+.sostenibilità2 {
   color: rgb(248, 244, 244);
   padding: 10px 15px;
   background-color: rgb(32, 217, 54);
@@ -90,4 +90,23 @@ img {
   flex-basis: calc(100% / 3 - 20px);
 
   min-height: 50px;
+}
+
+#first:hover {
+  content: url(./img/1b.webp);
+}
+#second:hover {
+  content: url(./img/2b.webp);
+}
+#third:hover {
+  content: url(./img/3b.webp);
+}
+#forth:hover {
+  content: url(./img/4b.webp);
+}
+#fifth:hover {
+  content: url(./img/5b.webp);
+}
+#sixth:hover {
+  content: url(./img/6b.webp);
 }
