@@ -7,6 +7,11 @@
 header {
   background-color: orange;
   height: 80px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 20;
 }
 .wrapper {
   display: flex;
